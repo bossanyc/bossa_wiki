@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bossanyc/bossa_wiki/issues"
   },
-  "homepage": "https://github.com/bossanyc/bossa_wiki"
+  "homepage": "https://github.com/bossanyc/bossa_wiki",
+  "dependencies": {
+    "jingo": "^1.5.3"
+  }
 }
