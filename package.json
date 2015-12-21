@@ -1,0 +1,19 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "Bossa web best practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bossanyc/bossa_wiki.git"
+  },
+  "author": "David Poyner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bossanyc/bossa_wiki/issues"
+  },
+  "homepage": "https://github.com/bossanyc/bossa_wiki"
+}
