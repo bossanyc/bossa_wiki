@@ -2,11 +2,11 @@
 # Configuration sample file for Jingo (YAML)
 application:
   title: Jingo
-  repository: ''
+  repository: './'
   docSubdir: ''
-  remote: ''
+  remote: 'origin'
   pushInterval: 30
-  secret: change me
+  secret:
   git: git
   skipGitCheck: false
   loggingMode: 1
@@ -15,28 +15,28 @@ application:
   staticWhitelist: "/\\.png$/i, /\\.jpg$/i, /\\.gif$/i"
 authentication:
   google:
-    enabled: true
-    clientId: replace me with the real value
-    clientSecret: replace me with the real value
+    enabled: false
+    clientId: 
+    clientSecret:
     redirectURL: ''
   github:
-    enabled: false
-    clientId: replace me with the real value
-    clientSecret: replace me with the real value
-    redirectURL: ''
+    enabled: true 
+    clientId: 7a383c35edd76cdc1b3a
+    clientSecret: 04ef706254a3433f7a26317098b586e9230f1011
+    redirectURL: 'http://localhost:6067/auth/github/callback/'
   local:
-    enabled: false
+    enabled: true
     accounts:
-      - username: ''
-        passwordHash: ''
-        email: ''
+      - username: 'admin'
+        passwordHash: '4bf3580737118dd4ccf8a163fb65b38128ef92df'
+        email: 'support@letsbossa.com'
 features:
   markitup: false
   codemirror: true
 server:
   hostname: localhost
   port: 6067
-  localOnly: false
+  localOnly: true
   baseUrl: ''
 authorization:
   anonRead: true
